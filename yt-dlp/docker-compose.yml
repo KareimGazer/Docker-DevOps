@@ -1,0 +1,9 @@
+version: '3.8'
+
+services:
+  yt-dlp-ubuntu:
+    # image: <username>/<repositoryname>
+    build: .
+    volumes:
+      - .:/my-app
+    container_name: yt-dlp

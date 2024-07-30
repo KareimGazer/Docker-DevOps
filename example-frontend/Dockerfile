@@ -5,6 +5,8 @@ WORKDIR /app
 
 EXPOSE 5000
 
+ENV REACT_APP_BACKEND_URL=http://localhost:8080
+
 # Copy the package.json and yarn.lock files to the working directory
 COPY package.json ./
 
